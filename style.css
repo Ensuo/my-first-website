@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html,body{
+    margin:0 ;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+
+h1{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+ul{
+    display:flex;
+    list-style-type: none;
+}
+li{
+    margin: 1em;
+}
+
+.top{
+    padding: 20px;
+    background-color: rgb(129, 209, 236);
+}
+
+.header{
+    color: rgb(255, 255, 255);
+    display:flex;
+    justify-content:space-between;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 20px;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.info{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    width: 100vw;
+}
+
+.photos {
+    width: 100%;
+    max-width: 400px;
+    max-height: 200px;
+
+    border: lightskyblue;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.figures{
+    display: flex;
+    justify-content: space-between;
+    text-align:center;
+    
+}
+
+.quote{
+    height: 200px;
+    background-color: rgb(209, 229, 243);
+    font-size:36px;
+    font-style: italic;
+    text-align-last: right;
+
+}
+
+.signPanel{
+    background-color: rgb(158, 45, 45);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 50px 35vw;
+    margin: 20px;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.button{
+    display:inline-flex;
+    height: 30px;
+    border-radius: 5px;
+    padding: 0px;
+    margin-left: 20px;
+    
+    background-color: rgb(240, 123, 123);
+    font-size: 16px;
+    font-weight: 500;
+
+    border: none;
+    outline: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(236, 93, 93)
+}
+
+.button__text, .button__icon{
+    display: inline-flex;
+    align-items: center;
+    padding: 0 14px;
+    color : #fff;
+    height: 100%;
+}
+
+.footer{
+    height: 8vh;
+    width: 100%;
+    background-color: rgb(1, 65, 87);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-pic{
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    
+    border: rgb(200, 170, 200);
+    border-style: solid;
+}
+
+#text{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#name{
+    color: rgb(12, 1, 39);
+}
